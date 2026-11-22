@@ -38,4 +38,4 @@
 
 **断电后会自己启动吗？** 不会自动恢复动作。保存生效的参数可以在重启后保留，但重启仍是停止状态。
 
-**想自己改程序怎么烧录？** 从[呼吸气球源码入口](https://gitee.com/zhouhao2528/maker-star-breath-balloon)取得对应工程，用 VS Code + PlatformIO 打开含 `platformio.ini` 的目录，选 `d1_mini`，用 USB 数据线连接，先 `Build` 后 `Upload`。网页已内置；请勿刷机械臂固件。
+**想自己改程序怎么烧录？** 打开[新版呼吸气球源码与构建说明](../firmware/breathing-balloon/README.md)。在 VS Code + PlatformIO 中打开含 `platformio.ini` 的目录，选 `d1_mini`，用 USB 数据线连接，先 `Build` 后 `Upload`。网页已内置；请勿刷机械臂固件。
