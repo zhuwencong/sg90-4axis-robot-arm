@@ -8,12 +8,12 @@
 
 ## 按型号查找
 
-| 型号 | 买家说明 | ESP8266 工程环境 | 原项目入口 |
+| 型号 | 买家说明 | ESP8266 工程环境 | 新版程序 |
 | --- | --- | --- | --- |
-| 四轴 SG90 机械臂（夹子款） | [四轴参数、接线和问答](docs/sg90-4axis.md) | `nodemcuv2` | [四轴工程](https://gitee.com/zhouhao2528/chuangkexingchenjixiebisiduo) |
-| 五轴 SG90 机械臂 | [五轴参数、接线和问答](docs/sg90-5axis.md) | `d1_mini` | [五轴工程](https://gitee.com/zhouhao2528/maker-star-mechanical-arm) |
-| 六轴 MG90S 机械臂 | [六轴参数、接线和问答](docs/mg90s-6axis.md) | `d1_mini` | [六轴工程](https://gitee.com/zhouhao2528/chuangkexingchenjixiebiliuzhou) |
-| 呼吸气球 | [气路控制、接线和问答](docs/breathing-balloon.md) | `d1_mini` | [呼吸气球工程](https://gitee.com/zhouhao2528/maker-star-breath-balloon) |
+| 四轴 SG90 机械臂（夹子款） | [四轴参数、接线和问答](docs/sg90-4axis.md) | `nodemcuv2` | [四轴原项目](https://gitee.com/zhouhao2528/chuangkexingchenjixiebisiduo) |
+| 五轴 SG90 机械臂 | [五轴参数、接线和问答](docs/sg90-5axis.md) | `d1_mini` | [五轴原项目](https://gitee.com/zhouhao2528/maker-star-mechanical-arm) |
+| 六轴 MG90S 机械臂 | [六轴参数、接线和问答](docs/mg90s-6axis.md) | `d1_mini` | [六轴原项目](https://gitee.com/zhouhao2528/chuangkexingchenjixiebiliuzhou) |
+| 呼吸气球 | [气路控制、接线和问答](docs/breathing-balloon.md) | `d1_mini` | [本仓库源码](firmware/breathing-balloon/README.md) · [原项目](https://gitee.com/zhouhao2528/maker-star-breath-balloon) |
 
 ## 先看这三条
 
@@ -28,8 +28,8 @@
 - [六轴 MG90S 网页控制界面](docs/mg90s-6axis.md#网页控制界面)（对应整机实物图待确认）
 - [呼吸气球商品与气路配件](docs/breathing-balloon.md#商品实物)
 
-## V1 范围
+## 发布范围
 
-本仓库发布使用文档，不复制固件、编译产物、历史资料或买家晒单。上表链接指向各项目已公开的源码入口，源码及第三方依赖的授权以各原项目说明为准。文档参数按各款对应的工程和说明整理，不代表在每一台设备上做过实测。
+本仓库发布四款使用文档，以及[新版呼吸气球的 PlatformIO 工程](firmware/breathing-balloon/README.md)。四轴、五轴、六轴暂保留现有源码入口，不复制转载授权尚待确认的程序。本仓库不收录旧版工程、预编译固件、构建缓存或买家晒单。文档参数按各款工程和说明整理，不代表在每一台设备上做过实测。
 
 未确认的载重、尺寸、真空泵机械臂的接线与供电，以及六轴版的整机电源规格，不在本版给出数值。需要改程序时，可参考 [PlatformIO 编译与烧录说明](https://docs.platformio.org/en/latest/core/userguide/cmd_run.html)。
